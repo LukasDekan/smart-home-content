@@ -15,10 +15,30 @@ body {
     margin:0;
 }
 
+
+
+
+
+
+/*--------IMAGE STYLING---------*/
 img {
     max-width: 100%;
-    object-fit: cover;
+    object-fit:cover;
 }
+/*------------------------------*/
+
+.homepage-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+
+
+
+
+
 
 #main-nav {
     background-color: var(--main-color);
@@ -28,6 +48,7 @@ img {
     /* justify-content: center; */
     width: 100%;
     position:fixed;
+    top: 0;
 }
 
 #main-nav > a {
@@ -63,5 +84,10 @@ img {
     background-color: var(--active-color);
 }
 
-
+#page-title {
+    display: flex;
+    align-items: flex-end;
+    align-items: center;
+    height: 15vh;
+}
 
