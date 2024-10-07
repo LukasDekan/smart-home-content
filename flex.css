@@ -27,7 +27,7 @@ img {
     padding: 0;
     /* justify-content: center; */
     width: 100%;
-
+    position:fixed;
 }
 
 #main-nav > a {
@@ -62,4 +62,6 @@ img {
 #main-nav > a.active{
     background-color: var(--active-color);
 }
+
+
 
