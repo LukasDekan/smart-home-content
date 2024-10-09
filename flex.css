@@ -25,18 +25,64 @@ img {
     max-width: 100%;
     object-fit:cover;
 }
-/*------------------------------*/
 
 .homepage-image{
     display: block;
+    position: absolute;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
 }
 
+/*------------------------------*/
+
+/*          TEXT STYLING        */
+#hero-text{
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    height: 30vh;   
+}           
+
+#page-title {
+    position:absolute;
+    display: flex;
+    align-items: flex-end;
+    align-items: center;
+    height: 15vh;
+}
+/*------------------------------*/
 
 
 
+
+/* #hero {
+    height: 80vh;
+    background-attachment: fixed;
+    background-position-x: center;
+    background-image: url(/images-for-house/futuristic-house.jpg);
+    background-size: cover;
+}
+
+#hero article {
+    width: 40vw;
+    padding: 2em;
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 1rem 0 1rem;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.33);
+}    */
+
+/* section {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+article {
+    display: block;
+    unicode-bidi: isolate;
+} */
 
 
 
@@ -84,10 +130,5 @@ img {
     background-color: var(--active-color);
 }
 
-#page-title {
-    display: flex;
-    align-items: flex-end;
-    align-items: center;
-    height: 15vh;
-}
 
+ 
