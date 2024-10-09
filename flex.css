@@ -9,7 +9,7 @@
     --main-color: lightseagreen;
     --focus-color: rgb(153, 200, 247);
     --active-color: rgb(140, 194, 248);
-    --textbox-color: rgb(115, 213, 255)
+    --textbox-color: rgba(115, 213, 255, 0.5)
 }
 
 body {
@@ -117,6 +117,7 @@ article {
     width: 100%;
     position:fixed;
     top: 0;
+    z-index: 100;
 }
 
 #main-nav > a {
