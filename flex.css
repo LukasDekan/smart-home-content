@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Italiana&family=Julius+Sans+One&display=swap");
 
 * {
     box-sizing: border-box;
@@ -9,16 +10,19 @@
     --main-color: lightseagreen;
     --focus-color: rgb(153, 200, 247);
     --active-color: rgb(140, 194, 248);
-    --textbox-color: rgba(115, 213, 255, 0.5)
+    --textbox-color: rgba(115, 213, 255, 0.8);
+    --button-color: rgb(70, 180, 191);
 }
 
-body {
+body { 
     margin:0;
 }
 
 
 
-
+a {
+    display: flex;
+}
 
 
 /*--------IMAGE STYLING---------*/
@@ -35,6 +39,40 @@ img {
     width: 100%;
 }
 
+/* .image-organizer{                 
+    align-content: space-between;
+    padding: 0.5rem;
+} */
+
+#image-container{                 
+    display: flex;
+    align-items: center;
+    position:inherit;
+}
+
+#image-container_2{                 
+    display: flex;
+    align-items: center;
+    position:inherit;
+}
+
+#image-container_3{                 
+    display: flex;
+    align-items: center;
+    position:inherit;
+}
+
+#image-container_4{                 
+    display: flex;
+    align-items: center;
+    position:inherit;
+}
+
+#image-container_5{                 
+    display: flex;
+    align-items: center;
+    position:inherit;
+}
 
 /*------------------------------*/
 
@@ -44,7 +82,7 @@ img {
     display: flex;
     justify-content: center;
     align-content: flex-end;
-    height: 30vh;   
+    height: 30vh;  
 }           
 
 #page-title {
@@ -63,6 +101,13 @@ img {
     text-align: left;
 }
 
+.page-header-container {   /*<--- THIS IS FOR TEXT */                  
+    display: flex;
+    align-items: flex-start;
+    position:inherit;
+    text-align: left;
+}
+
 .text-container {
     position: absolute;
     color: black;
@@ -73,6 +118,31 @@ img {
     text-align: left;
     font-size: 18px;
     background-color: var(--textbox-color);
+}
+
+.text-container > p > a {
+    text-decoration: none;
+    font-family: "Italiana", ital;
+}
+
+/* .text-container > h1 {
+    text-decoration: underline;
+} */
+
+.text-container_2 > p > a {
+    text-decoration: none;
+}
+
+.text-container_3 > p > a {
+    text-decoration: none;
+}
+
+.text-container_4 > p > a {
+    text-decoration: none;
+}
+
+.text-container_5 > p > a {
+    text-decoration: none;
 }
 
 .text-container_2{
@@ -87,42 +157,81 @@ img {
     background-color: var(--textbox-color);
 }
 
+.text-container_3{
+    position: absolute;
+    color: black;
+    left: 60%; 
+    top: 195%;
+    transform: translate(-20%, -50%);
+    padding: 2rem;
+    text-align: left;
+    font-size: 18px;
+    background-color: var(--textbox-color);
+}
+
+.text-container_4{
+    position: absolute;
+    color: black;
+    left: 60%; 
+    top: 255%;
+    transform: translate(-20%, -50%);
+    padding: 2rem;
+    text-align: left;
+    font-size: 18px;
+    background-color: var(--textbox-color);
+}
+
+.text-container_5{
+    position: absolute;
+    color: black;
+    left: 60%; 
+    top: 315%;
+    transform: translate(-20%, -50%);
+    padding: 2rem;
+    text-align: left;
+    font-size: 18px;
+    background-color: var(--textbox-color);
+}
+
+/* .image-container_living-room{              
+    display: flex;
+    align-items: flex-start;
+    position:inherit;
+} */
+
+
+.text-container_convenience-page{
+    position: absolute;
+    color: black;
+    left: 100%;
+    top: 50%;
+    transform: translate(-100%, -50%);
+    padding: 0.1rem;
+    text-align: left;
+    font-size: 18px;
+    background-color: white; 
+}
+
+
+.button {
+    background-color:var(--button-color);
+    border: none;
+    color: black;
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
 /*------------------------------*/
 
 
 /*------------BOX STYLING--------------*/
 
 /*------------------------------*/
-
-
-
-
-/* #hero {
-    height: 80vh;
-    background-attachment: fixed;
-    background-position-x: center;
-    background-image: url(/images-for-house/futuristic-house.jpg);
-    background-size: cover;
-}
-
-#hero article {
-    width: 40vw;
-    padding: 2em;
-    color: whitesmoke;
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 1rem 0 1rem;
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.33);
-}    */
-
-/* section {
-    display: block;
-    unicode-bidi: isolate;
-}
-
-article {
-    display: block;
-    unicode-bidi: isolate;
-} */
 
 
 
