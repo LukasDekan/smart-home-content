@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Italiana&family=Julius+Sans+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Italiana&family=Julius+Sans+One&display=swap");
 
 * {
     box-sizing: border-box;
@@ -48,30 +49,35 @@ img {
     display: flex;
     align-items: center;
     position:inherit;
+    padding:1rem;
 }
 
 #image-container_2{                 
     display: flex;
     align-items: center;
     position:inherit;
+    padding:0.5rem;
 }
 
 #image-container_3{                 
     display: flex;
     align-items: center;
     position:inherit;
+    padding:0.5rem;
 }
 
 #image-container_4{                 
     display: flex;
     align-items: center;
     position:inherit;
+    padding:0.5rem;
 }
 
 #image-container_5{                 
     display: flex;
     align-items: center;
     position:inherit;
+    padding:0.5rem;
 }
 
 /*------------------------------*/
@@ -83,28 +89,29 @@ img {
     justify-content: center;
     align-content: flex-end;
     height: 30vh;  
-}           
+}   
 
-#page-title {
-    position:absolute;
-    display: flex;
-    align-items: flex-end;
-    align-items: center;
-    height: 15vh;
-}
+.top-title {
+    padding: 18px;
+    text-align: center;
+    background: white;
+    color: black;
+    font-size: 30px;
+  }
+
+  .top-title-furniture_page{
+    padding: 18px;
+    text-align: center;
+    background: white;
+    color: black;
+    font-size: 24px;
+  }
 
 .image-container {   /*<--- THIS IS FOR TEXT */                  
     display: flex;
     align-items: flex-start;
     position:inherit;
     width: 100%;
-    text-align: left;
-}
-
-.page-header-container {   /*<--- THIS IS FOR TEXT */                  
-    display: flex;
-    align-items: flex-start;
-    position:inherit;
     text-align: left;
 }
 
@@ -119,6 +126,79 @@ img {
     font-size: 18px;
     background-color: var(--textbox-color);
 }
+
+.image-container_inside-text_overview-page{   /*<--- THIS IS FOR TEXT */                  
+    display: flex;
+    align-items: flex-start;
+    position:inherit;
+    width: 100%;
+    text-align: left;
+}
+
+.txt-container_inside-text_overview-page{
+    display: flex;
+    justify-content: center;
+    bottom: 70%;
+    position: absolute;
+    color: black;
+    padding: 0.1rem;
+    text-align: left;
+    font-size: 18px;
+    background-color: var(--textbox-color);
+}
+
+.txt-container_how-smarthouse-was-built {   
+    border-radius: 10%;
+    width: 100%;
+    left:20%;
+    text-align: center;
+    font-size: 12px;
+    font-family: "Inria Serif", serif; 
+    color: black;
+    padding: 0.1rem;
+    background-color: var(--textbox-color);
+}
+
+.image-container_overview-page {              
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.image-container_builders {              
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+
+
+.txt-container_building-the-smarthouse1 { 
+    border-radius: 10%;
+    width: 100%;
+    left:20%;
+    text-align: center;
+    font-size: 12px;
+    font-family: "Inria Serif", serif; 
+    color: black;
+    padding: 0.1rem;
+    background-color: var(--textbox-color);
+}
+
+.txt-container_builders { 
+    position: absolute;
+    border-radius: 10%;
+    width: 100%;
+    left:20%;
+    text-align: center;
+    font-size: 12px;
+    font-family: "Inria Serif", serif; 
+    color: black;
+    padding: 0.1rem;
+    background-color: var(--textbox-color);
+}
+
+
 
 .text-container > p > a {
     text-decoration: none;
@@ -161,9 +241,9 @@ img {
     position: absolute;
     color: black;
     left: 60%; 
-    top: 195%;
+    top: 210%;
     transform: translate(-20%, -50%);
-    padding: 2rem;
+    padding: 1rem;
     text-align: left;
     font-size: 18px;
     background-color: var(--textbox-color);
@@ -173,7 +253,7 @@ img {
     position: absolute;
     color: black;
     left: 60%; 
-    top: 255%;
+    top: 279%;
     transform: translate(-20%, -50%);
     padding: 2rem;
     text-align: left;
@@ -185,9 +265,9 @@ img {
     position: absolute;
     color: black;
     left: 60%; 
-    top: 315%;
+    top: 348%;
     transform: translate(-20%, -50%);
-    padding: 2rem;
+    padding: 3rem;
     text-align: left;
     font-size: 18px;
     background-color: var(--textbox-color);
@@ -200,17 +280,28 @@ img {
 } */
 
 
+
+
+
 .text-container_convenience-page{
     position: absolute;
     color: black;
-    left: 100%;
-    top: 50%;
-    transform: translate(-100%, -50%);
-    padding: 0.1rem;
-    text-align: left;
+    left: 190%;
+    top: 10%;
+    width: 100%;
+    transform: translate(-160%, -70%);
+    padding: 0.5rem;
     font-size: 18px;
     background-color: white; 
 }
+
+.page-header-container {   /*<--- THIS IS FOR TEXT */                  
+    text-align: center;
+}
+
+
+
+
 
 
 .button {
