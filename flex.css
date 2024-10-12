@@ -132,17 +132,26 @@ img {
     align-items: flex-start;
     position:inherit;
     width: 100%;
-    text-align: left;
+    text-align: center;
 }
 
-.txt-container_inside-text_overview-page{
-    display: flex;
-    justify-content: center;
-    bottom: 70%;
-    position: absolute;
+.image-container_cellar{   /*<--- THIS IS FOR TEXT */                  
+    position:inherit;
+    width: 100%;
+    text-align: center;
+}
+
+.image-container_sub-cellar{   /*<--- THIS IS FOR TEXT */                  
+    position:inherit;
+    width: 100%;
+    text-align: center;
+}
+
+.txt-container_inside-text_overview-page{   
+    position: relative;
     color: black;
     padding: 0.1rem;
-    text-align: left;
+    text-align: center;
     font-size: 18px;
     background-color: var(--textbox-color);
 }
