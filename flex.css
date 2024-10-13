@@ -161,11 +161,9 @@ img {
 .txt-container_bullet-list{
     position: absolute;
     color: black;
-    left: 95%;
-    top: 100%;
     width: 90%;
-    transform: translate(-100%, -50%);
-    padding: 0.1rem;
+    transform: translate(5%, -5%);
+    padding: 0.5rem;
     text-align: left;
     font-size: 18px;
     background-color: var(--bullet-list_color); 
@@ -174,8 +172,7 @@ img {
 .image-container_for-bullet-list{   /*<--- THIS IS FOR TEXT */                  
     display: flex;
     justify-content: center;
-    align-items: center;
-    position: inherit;
+    position: relative;
     text-align: left;
 }
 
@@ -362,6 +359,7 @@ img {
     align-items: center;
     position:inherit;
     padding:1rem;
+    width: 50%;
 }
 
 .text-container_mower{
@@ -382,6 +380,7 @@ img {
     align-items: center;
     position:inherit;
     padding:1rem;
+    width: 50%;
 }
 
 .text-container_stove{
@@ -452,6 +451,7 @@ img {
     align-items: center;
     position:inherit;
     padding:1rem;
+    width: 45%;
   }
 
   .txt-container_wedge{   
