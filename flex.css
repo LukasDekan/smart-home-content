@@ -482,7 +482,6 @@ img {
     padding: 0.1rem;
     text-align: center;
     font-size: 18px;
-    font-style: bold;
     background-color: var(--textbox-color_origanale);
     transform: translate(13.7%, 3250%);
     width: 850px;
@@ -548,26 +547,132 @@ img {
 }
 
 #image-container_water-rats{ 
-    position: inherit;
-    left:58.5%;
-    top:175%; 
-    width: 20%;
+    position: absolute;
+    left: 0%;
+    top: 250%;
+    width: 50%;
 }
 
 .text-container_water-rats{
     width:50%;
     position: relative;
     color: black;
-    transform: translate(0%, 10%);
+    transform: translate(100%, 40%);
     padding: 2rem;
     text-align: center;
     font-size: 28px;
     background-color: white;
 }
 
+#image-container_robots{ 
+    position: absolute;
+    left:58.5%;
+    top:330%; 
+    width:35%;
+}
+
+.text-container_robots{
+    width:50%;
+    position: relative;
+    color: black;
+    transform: translate(0%, 70%);
+    padding: 2rem;
+    text-align: center;
+    font-size: 28px;
+    background-color: white;
+}
+
+#image-container_indoor{
+    position: absolute;
+    left:5%;
+    top:400%; 
+    width:35%;
+}
+
+.text-container_indoor{
+    width:50%;
+    position: relative;
+    color: black;
+    transform: translate(90%, 100%);
+    padding: 2rem;
+    text-align: center;
+    font-size: 28px;
+    background-color: white;
+}
+
+#image-container_shudder{
+    position: absolute;
+    transform: translate(145%, 105%); 
+    width:40%;
+}
+
+.text-container_shudder{
+    width:50%;
+    position: relative;
+    color: black;
+    transform: translate(10%, 105%);
+    padding: 2rem;
+    text-align: center;
+    border-radius: 5%;
+    font-size: 28px;
+    background-color: var(--textbox-color_origanale);
+}
+
+.image-container_table{
+    position: absolute;
+    transform: translate(30%, 90%);
+    width:40%;
+    height: 40%;
+}
+
+.image-container_chair{
+    position: absolute;
+    transform: translate(290%, 90%);
+    width:20%;
+
+}
 
 
+.top-title-furniture_page2{
+    padding: 18px;
+    text-align: center;
+    background: white;
+    color: black;
+    font-size: 18px;
+  }
 
+  .top-title-furniture_page3{
+    padding: 18px;
+    text-align: center;
+    background: white;
+    color: black;
+    font-size: 18px;
+    transform: translate(0%, 170%);
+  }
+
+.image-container_door{
+    position: absolute;
+    transform: translate(200%, 190%);
+    width:20%;
+}
+
+.image-container_furniture_bed{
+    position: absolute;
+    transform: translate(135%, 225%);
+    width:40%;
+}
+
+.text-container_furniture_bed{
+    z-index: -10;
+    width:50%;
+    position: relative;
+    color: black;
+    transform: translate(10%, 170%);
+    padding: 2rem;
+    text-align: center;
+    font-size: 28px;
+    background-color: white;
+}
 
 .txt-container_how-smarthouse-was-built {   
     border-radius: 10%;
