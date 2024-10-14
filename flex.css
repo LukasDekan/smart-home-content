@@ -120,14 +120,12 @@ img {
 .text-container {
     position: absolute;
     color: black;
-    left: 50%;
-    top: 33%;
+    width: 50%;
     transform: translate(-100%, -50%);
     padding: 0.1rem;
     text-align: left;
     font-size: 18px;
     background-color: var(--textbox-color);
-    width: 30%;
 }
 
 .image-container_inside-text_overview-page{   /*<--- THIS IS FOR TEXT */                  
