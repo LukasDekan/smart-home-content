@@ -186,7 +186,8 @@ img {
 }
 
 .bullet-list_text{
-    font-family: "Italiana", ital;
+    font-family: "Inknut Antiqua", ital;
+    font-size: 12px;
 }
 
 .box-header_font-family{
@@ -199,8 +200,8 @@ img {
 
 .image-container_bed{   /*<--- THIS IS FOR TEXT */                  
     position:absolute;
-    left: 22.5%;
-    top: 280%;
+    left: 35%;
+    top: 163%;
 }
 
 .txt-container_bed{   
@@ -217,7 +218,7 @@ img {
     position:absolute;
     width: 100%;
     text-align: center;
-    top: 370%;
+    top: 208.5%;
 }
 
 .txt-container_fireplace{
@@ -232,9 +233,9 @@ img {
 
 .image-container_bathtub{   /*<--- THIS IS FOR TEXT */        
     position:absolute;
-    width: 50%;
-    left: 25%;
-    top: 460%;
+    width: 30%;
+    left: 34.5%;
+    top: 250%;  
 }
 
 .txt-container_bathtub{   
@@ -251,8 +252,9 @@ img {
 #image-container_patio{                 
     display: flex;
     align-items: center;
-    top: 535%;
-    left: 5%;
+    top: 290%;
+    left: 25%;
+    width: 20%;
     position:absolute;
     padding:1rem;
 }
@@ -261,9 +263,9 @@ img {
     position: inherit;
     color: black;
     width: 500px;
-    height: 400px;
+    height: 380px;
     border-radius: 10%;
-    transform: translate(95%, 460%);
+    transform: translate(210%, 490%);
     padding: 2rem;
     text-align: left;
     font-size: 18px;
@@ -283,7 +285,7 @@ img {
   .top-title_cleaning2{ 
     position: relative;
     padding: 18px;
-    transform: translate(0%, 1700%);
+    transform: translate(0%, 1950%);
     text-align: center;
     background: white;
     color: black;
@@ -292,8 +294,9 @@ img {
 
 .image-container_robot-mice{   /*<--- THIS IS FOR TEXT */                  
     position:absolute;
-    width: 100%;
-    top: 690%;
+    left: 10%;
+    top: 365%;
+    width: 80%;
     text-align: center;
 }
 
@@ -311,29 +314,29 @@ img {
 
 #image-container_rat{
     position: absolute;
-    left:15%;
-    top:755%; 
-    width: 65%;
+    left:29%;
+    top:392%; 
+    width: 45%;
 }
 
 .text-container_rat{
     position: relative;
     color: black;
     left: 60%;
-    top: 142%;
+    top: 5%;
     width: fit-content;
     height: fit-content;
-    transform: translate(-76%, 1195%);
+    transform: translate(-73%, 1000%);
     padding: 2rem;
     text-align: center;
-    font-size: 18px;
+    font-size: 24px;
     background-color: var(--textbox-color);
 }
 
 #image-container_furnace{ 
     position: absolute;
-    left:15%;
-    top:905%; 
+    left:23%;
+    top:490%; 
     width:30%;
 }
 
@@ -341,7 +344,7 @@ img {
     width:30%;
     position: relative;
     color: black;
-    transform: translate(170%, 1345%);
+    transform: translate(185%, 1645%);
     padding: 2rem;
     text-align: left;
     font-size: 18px;
@@ -372,7 +375,7 @@ img {
     height: 35%;
     position: absolute;
     color: black;
-    transform: translate(10%, 1760%);
+    transform: translate(10%, 460%);
     padding: 2rem;
     text-align: left;
     font-size: 18px;
@@ -380,12 +383,12 @@ img {
 }
 
 #image-container_mower{
-    transform: translate(92%, 565%);
+    transform: translate(180%, 460%);
     display: flex;
     align-items: center;
     position:inherit;
     padding:1rem;
-    width: 50%;
+    width: 30%;
 }
 
 .text-container_stove{
@@ -409,15 +412,6 @@ img {
     padding:1rem;
 }
 
-.top-title_cleaning3{ 
-    position: relative;
-    padding: 18px;
-    transform: translate(0%, 1400%);
-    text-align: center;
-    background: white;
-    color: black;
-    font-size: 22px;  
-  }
 
   
   #image-container_stove{
@@ -432,7 +426,7 @@ img {
 .top-title_cleaning3{ 
     position: relative;
     padding: 18px;
-    transform: translate(0%, 1400%);
+    transform: translate(0%, 1700%);
     text-align: center;
     background: white;
     color: black;
@@ -862,7 +856,7 @@ img {
     color: black;
     background-color: var(--textbox-color_origanale);
     left: 50%; 
-    top: 115%;
+    top: 74%;
     transform: translate(-100%, 80%);
     padding: 1rem;
     font-size: 18px;
