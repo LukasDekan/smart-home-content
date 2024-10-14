@@ -52,6 +52,7 @@ img {
     align-items: center;
     position:inherit;
     padding:1rem;
+    width: 40%; 
 }
 
 #image-container_2{                 
@@ -59,6 +60,7 @@ img {
     align-items: center;
     position:inherit;
     padding:0.5rem;
+    width: 40%; 
 }
 
 #image-container_3{                 
@@ -66,6 +68,7 @@ img {
     align-items: center;
     position:inherit;
     padding:0.5rem;
+    width: 40%; 
 }
 
 #image-container_4{                 
@@ -73,6 +76,7 @@ img {
     align-items: center;
     position:inherit;
     padding:0.5rem;
+    width: 40%; 
 }
 
 #image-container_5{                 
@@ -80,6 +84,7 @@ img {
     align-items: center;
     position:inherit;
     padding:0.5rem;
+    width: 40%; 
 }
 
 /*------------------------------*/
@@ -120,9 +125,10 @@ img {
 .text-container {
     position: absolute;
     color: black;
-    width: 50%;
-    transform: translate(-100%, -50%);
-    padding: 0.1rem;
+    left: 50%;
+    top: 33%;
+    transform: translate(-100%, -80%);
+    padding: 3rem;
     text-align: left;
     font-size: 18px;
     background-color: var(--textbox-color);
@@ -754,10 +760,10 @@ img {
 .text-container_2{
     position: absolute;
     color: black;
-    left: 60%;
-    top: 142%;
+    left: 59%;
+    top: 135%;
     transform: translate(-20%, -50%);
-    padding: 2rem;
+    padding: 3rem;
     text-align: left;
     font-size: 18px;
     background-color: var(--textbox-color);
@@ -767,9 +773,9 @@ img {
     position: absolute;
     color: black;
     left: 60%; 
-    top: 210%;
+    top: 190%;
     transform: translate(-20%, -50%);
-    padding: 1rem;
+    padding: 3rem;
     text-align: left;
     font-size: 18px;
     background-color: var(--textbox-color);
@@ -779,9 +785,9 @@ img {
     position: absolute;
     color: black;
     left: 60%; 
-    top: 279%;
+    top: 245%;
     transform: translate(-20%, -50%);
-    padding: 2rem;
+    padding: 3rem;
     text-align: left;
     font-size: 18px;
     background-color: var(--textbox-color);
@@ -790,8 +796,8 @@ img {
 .text-container_5{
     position: absolute;
     color: black;
-    left: 60%; 
-    top: 348%;
+    left: 56.5%; 
+    top: 293%;
     transform: translate(-20%, -50%);
     padding: 3rem;
     text-align: left;
