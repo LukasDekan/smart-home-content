@@ -125,6 +125,7 @@ img {
     text-align: left;
     font-size: 18px;
     background-color: var(--textbox-color);
+    width: 30%;
 }
 
 .image-container_inside-text_overview-page{   /*<--- THIS IS FOR TEXT */                  
