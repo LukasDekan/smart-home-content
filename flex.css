@@ -354,20 +354,20 @@ img {
 .text-container_sprinkler{
     position: absolute;
     color: black;
-    transform: translate(120%, 1850%);
-    padding: 2rem;
+    transform: translate(185%, 1801%);
+    padding: 3rem;
     text-align: left;
-    font-size: 18px;
+    font-size: 24px;
     background-color: var(--textbox-color);
 }
 
 #image-container_sprinkler{
-    transform: translate(0%, 820%);
+    transform: translate(30%, 1020%);
     display: flex;
     align-items: center;
     position:inherit;
     padding:1rem;
-    width: 50%;
+    width: 30%;
 }
 
 .text-container_mower{
@@ -375,15 +375,15 @@ img {
     height: 35%;
     position: absolute;
     color: black;
-    transform: translate(10%, 460%);
+    transform: translate(20%, 815%);
     padding: 2rem;
     text-align: left;
-    font-size: 18px;
+    font-size: 24px;
     background-color: var(--textbox-color);
 }
 
 #image-container_mower{
-    transform: translate(180%, 460%);
+    transform: translate(200%, 500%);
     display: flex;
     align-items: center;
     position:inherit;
@@ -426,7 +426,7 @@ img {
 .top-title_cleaning3{ 
     position: relative;
     padding: 18px;
-    transform: translate(0%, 1700%);
+    transform: translate(0%, 2000%);
     text-align: center;
     background: white;
     color: black;
